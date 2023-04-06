@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Fundamentals of Digital Electronics",
+    "chapters": [
+      {
+        "name": "Number System",
+        "topics": [
+          {
+            "name": "Brief Description of Number System",
+            "description": "Mainly, there are two basic ways of representing the numerical values of the various physical quantities that we constantly deal with in our day-to-day lives. One of such ways is referred to as analogue, which is the expression of numerical value of the quantity as a continuous range of values between the two expected extreme values. For example, the temperature of boiled oven settable anywhere from 25 to 100°C may be measured to be 70°C or 69.75°C or 70.555°C or even 69.9999°C and so on, depending upon the accuracy of the measuring instrument. Also, voltage across a certain component in an electric circuit may be measured as 7.5V or 7.49V or 7.487V or 7.4869V. The basic concept in this mode of representation is that variation in the numerical value of the quantity is continuous and could have any of the infinite theoretically possible values between the two extremes. The other possible way, referred to as digital, represents the numerical value of the quantity in steps of discrete values. The numerical are mostly represented using binary numbers. For example, the temperature of the boiled water may be represented in steps of 1°C as 74°C, 75°C, 76°C and so on. In summary, while an analogue representation gives a continuous output, a digital representation a disceret output. Analogue systems contain devices that process or work on various physical quantities represented in analogue form. Digital systems contain devices that process the physical quantities represented in digital form.",
+            "subtopics": [
+              {
+                "name": "Advantages of Digital System",
+                "description": "Much easier to design, Higher accuracy, Programmability, Noise immunity, Easier storage of data, Ease of fabrication integrated circuit form, leading to availability of more complex functions in a smaller size. The natural world physical quanities like - position, velocity, acceleration, force, pressure, temperature and flow rate, are analogue in nature. Therefore there is a need for these analogue variables representing these quantities to be digitalized before been processed in order to benefit from the features and facilities that comes with the use of digital techniques. Hence the need of analogue-to-digital converter blocks. And digital-to-analogue converter block in a typical system."
+              }
+            ]
+          },
+          {
+            "name": "Introduction to Number System",
+            "description": "Different characteristics that define a number system include: (i) The number of independent digits used in the number system (radix or base) (ii) The place values of the different digits constituting the number and (iii) The maximum numbers that can be written with the given number of digits. Amongst the three characteristic parameteres, the most fundamental is the number of independent digits or symbols used in the number system. it is known as the radix or base of the number system. The decimal number system with which we are so familiar can be said to have a radix of 10 as it has 10 independednt digits, i.e 0,1,2,3,4,5,6,7,8,9. Similarly,the binary number system with only two independent digits, 0 and 1, is a radix-2 number system. The octal and hexadecimal number systems have a radix(or base) of 8 and 16 respectively. The place value of different digits in the integer part of the number are given by r^0, r^1, r^2, r^3 and so on, starting with the digit adjacent to the radix point. For the fractional part, these are r^-1, r^-2, r^-3 and so on, again starting with the digit next to the radix point. Here, r is the radix of the number system. Also, maximum numbers that can be written with n digits in a given number system are equal to r^n. For example, two digits decimal gives 10^2=100 nubmers i.e 0-99, two digits binary gives 2^2=4 numbers i.e 00-11 (0-3 in decimal), two digits octal gives 8^2=64 numbers 0-77",
+            "subtopics": []
+          }
+        ]
+      }
+    ]
+  }
+]
